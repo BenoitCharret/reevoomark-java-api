@@ -39,7 +39,7 @@ is available here:
   # Include the appropriate taglib (see below for INSTALL)
   <%@ taglib prefix="reevoo" uri="http://reevoo.com/java-taglib/v1" %>
 
-  # Display in-line reviews for the retailer JSP and the SKU 5155703
+  # Display in-line reviews for the trkref JSP and the SKU 5155703
   <reevoo:mark sku="5155703" trkref="JSP" baseURI="http://mark.reevoo.com/reevoomark/en-GB/embeddable_reviews.html" />
 
 

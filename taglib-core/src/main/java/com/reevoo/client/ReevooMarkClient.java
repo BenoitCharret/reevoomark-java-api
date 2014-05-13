@@ -115,9 +115,9 @@ public class ReevooMarkClient {
       String trkrefParam = URLEncoder.encode(trkref, "ISO-8859-1");
       if(sku != null){
           String skuParm = URLEncoder.encode(sku, "ISO-8859-1");
-          return String.format("?sku=%s&retailer=%s", skuParm, trkrefParam);
+          return String.format("?sku=%s&trkref=%s", skuParm, trkrefParam);
       } else {
-          return String.format("?retailer=%s", trkrefParam);
+          return String.format("?trkref=%s", trkrefParam);
       }
     }
 }
